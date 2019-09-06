@@ -1,0 +1,36 @@
+/*---- Base Layout----*/
+* {
+	box-sizing: border-box;
+}
+
+body {
+	color: $color-primary;
+	font: 1.8rem/1.5 'Proxima Nova';
+}
+
+img {
+	max-width: 100%;
+}
+
+h1 {
+	font-family: 'abril-fatface';
+	font-size: 4.6rem;
+}
+
+ul li {
+	list-style-type: none;
+}
+
+ul {
+	padding-left: 0;
+}
+
+a {
+	text-decoration: none!important;
+	color: $color-primary;
+	display: block;
+}
+
+a:hover {
+	text-decoration: none;
+}

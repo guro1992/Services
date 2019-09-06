@@ -1,0 +1,49 @@
+.we-offer {
+    margin-top: 8.5rem;
+
+    & h1 {
+        color: $color-dark-blue;
+    } 
+
+    & .underline {
+        background-color: #0ecafc;
+        width: 8rem;
+        height: 6px;
+        margin: 1.4rem 0;
+        border-radius: 0.8rem;
+        margin-bottom: 6rem;
+    }
+
+    & nav li {
+        margin-bottom: 2.5rem;
+        padding-left: 1rem;
+        cursor: pointer;
+        color: #252e38;
+
+        &:hover {
+            color: $color-dark-blue;
+        }
+    }
+
+    & h3 {
+        color: $color-dark-blue;
+    }
+
+    & .d-none {
+        & ul {
+            list-style-position: inside;
+        }
+
+        & li {
+            list-style-type: disc;
+            margin-bottom: 2rem;
+            position: relative;
+
+            & span {
+            position: absolute; 
+            left: 2.5rem;
+            }
+        }
+    }
+}
+

@@ -1,0 +1,27 @@
+/* ---- footer ---- */
+.footer {
+    font-size: 14px;
+    background-color: #1b3568;
+    padding-top: 7rem;
+    color: #8091b4;
+
+    & h1 {
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 14px;
+        color: $color-secondary;
+    }
+
+    & .cols {
+        @include lines();
+    }
+
+    & li {
+        text-transform: capitalize;
+        margin-bottom: 10px;
+    }
+
+    & a {
+        color: #8091b4;
+    }
+}

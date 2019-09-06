@@ -1,0 +1,20 @@
+/*------ Web Fonts ------*/
+
+@include font-face('Proxima Nova', proximanovareg-webfont);
+@include font-face('abril-fatface', AbrilFatface-Regular);
+
+html {
+    font-size: 62.5%;
+    @include mq('xsmall'){
+        font-size: 40%;
+    }
+    @include mq('small') {
+        font-size: 45%;
+    }
+    @include mq('medium') {
+        font-size: 55%;
+    } 
+    @include mq('large') {
+        font-size: 62.5%;
+    }
+}

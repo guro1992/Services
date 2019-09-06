@@ -1,0 +1,45 @@
+/* ---- explore more ---- */
+.explore-more {
+    margin-top: 9rem;
+    background-color: #eaf9ff; 
+    padding-bottom: 3rem;
+
+    &__h1 {
+        font-size: 4.8rem;
+        padding: 4rem 0;
+    }
+
+    &__h2 {
+        font-size: 2.4rem; 
+        font-weight: bold;
+        border-top: 3px solid $color-line;
+        padding: 1.2rem 10px;
+        color: $color-dark-blue;
+        text-transform: uppercase;
+    }
+    
+    &--heights {
+        height: 24rem;
+
+        &:hover {
+
+            & .wrapper {
+                display: block;
+                background-color: $color-secondary;
+                cursor: pointer;
+            }
+
+            & .explore-more__img {
+                display: block;
+                background: url('../images/explore-more-img.png') no-repeat center/cover;
+                height: 11rem;
+            }
+        }
+    }
+
+    & p {
+        margin-bottom: 0;
+        padding: 10px;
+        padding-top: 0;
+    }
+}

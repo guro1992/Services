@@ -1,0 +1,14 @@
+{
+  "name": "brokers-about",
+  "version": "1.0.0",
+  "description": "writing markup",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass assets/scss/style.scss assets/css/main.css -w"
+  },
+  "author": "guram dgebuadze",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
