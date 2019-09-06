@@ -181,6 +181,12 @@ a:hover {
 
 .we-offer {
   margin-top: 8.5rem; }
+  @media screen and (max-width: 560px) {
+    .we-offer {
+      height: 700px; } }
+  @media screen and (min-width: 992px) {
+    .we-offer {
+      height: 650px; } }
   .we-offer h1 {
     color: #0a3769; }
   .we-offer .underline {

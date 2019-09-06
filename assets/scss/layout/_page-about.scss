@@ -1,5 +1,11 @@
 .we-offer {
     margin-top: 8.5rem;
+    @include mq('xsmall') {
+        height: 700px;
+    }
+    @include mq('large') {
+        height: 650px;
+    }
 
     & h1 {
         color: $color-dark-blue;
